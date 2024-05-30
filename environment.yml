@@ -1,0 +1,23 @@
+name: JVSBen_env
+channels:
+  - conda-forge
+  - defaults
+dependencies:
+  - python
+  - pandas
+  - numpy
+  - matplotlib
+  - seaborn
+  - jupyter
+  - notebook
+  - ipykernel
+  - openai
+  - google-api-python-client
+  - google-auth
+  - google-auth-oauthlib
+  - google-auth-httplib2
+  - sqlite
+  - requests
+  - pip
+  - pip:
+      - youtube-transcript-api
